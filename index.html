@@ -1,71 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css"/>
-    </head>
-    <body>
-        <nav class="nav">
-          <div class="nav-left">
-            <a class="nav-item">
-              <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
-            </a>
-          </div>
-        
-          <div class="nav-center">
-            <a class="nav-item">
-              <span class="icon">
-                <i class="fa fa-github"></i>
-              </span>
-            </a>
-            <a class="nav-item">
-              <span class="icon">
-                <i class="fa fa-twitter"></i>
-              </span>
-            </a>
-          </div>
-        
-          <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-          <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-          <span class="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        
-          <!-- This "nav-menu" is hidden on mobile -->
-          <!-- Add the modifier "is-active" to display it on mobile -->
-          <div class="nav-right nav-menu">
-            <a class="nav-item">
-              Home
-            </a>
-            <a class="nav-item">
-              Documentation
-            </a>
-            <a class="nav-item">
-              Blog
-            </a>
-        
-            <span class="nav-item">
-              <a class="button" >
-                <span class="icon">
-                  <i class="fa fa-twitter"></i>
-                </span>
-                <span>Tweet</span>
-              </a>
-              <a class="button is-primary">
-                <span class="icon">
-                  <i class="fa fa-download"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </span>
-          </div>
-        </nav>
-        
-    </body>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>101Haikus</title>
+</head>
+
+<body>
+    <div class="bg-img">
+
+        <div class="container" style="align-items: center; flex-direction: column;">
+            <div class="l-0 section" style="display: flex; flex-direction: column; justify-content: space-evenly;">
+                
+               <div style="display: flex;">
+
+                   101 <span class="haikus">Haikus</span>
+               </div> 
+
+            
+            </div>
+
+
+            <div class="middle section container" style="flex: column;">
+
+                   
+                   
+                    <div class="container" style="flex-direction: row; justify-content: space-between; width: 42vw">
+                        <a href="https://www.amazon.com/101-Potato-Haikus-Versatile-Delicious/dp/1092800867/ref=sr_1_1?dchild=1&keywords=101+potato+haikus&qid=1587954802&sr=8-1">
+                            <button class="button">101 Potato Haikus</button>
+                        </a>
+                        <a href="https://www.amazon.com/101-Coffee-Haikus-Variety-Calliope/dp/B0863TFXB8/ref=sr_1_1?keywords=101+coffee+haikus&qid=1587954790&sr=8-1">
+                            <button class="button">101 Coffee Haikus</button>
+                        </a>
+                        <a href="https://www.amazon.com/101-Fungal-Haikus-Decompose-Maintain/dp/B087FKMRKN/ref=sr_1_1?dchild=1&keywords=101+fungal+haikus&qid=1587952368&sr=8-1">
+                            <button class="button">101 Fungal Haikus</button>
+                        </a>
+                    </div>
+                    <div style="height: 39px;">
+
+                    </div>
+                    <a href="https://twitter.com/101_Haikus">
+                       <button class="big-button">Follow For Updates</button>
+                   </a>
+
+            </div>
+            <div class="bottom section">
+                <ul class="social-links" style="display: flex; justify-content: space-evenly; width: 50vw;">
+                    <li> 
+                        <a href="https://www.twitter.com/101_haikus" class="button is-primary">
+                            <span class="icon">
+                                <i class="fa fa-twitter" style="color: white; font-size: 30px;"></i>
+                            </span>
+                      </a>
+                    </li>
+                    <li> 
+                        <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3ABrett+Joseph+Owers&s=relevancerank&text=Brett+Joseph+Owers&ref=dp_byline_sr_book_1" class="button is-primary">
+                            <span class="icon">
+                                <i class="fa fa-amazon" style="color: white; font-size: 30px"></i>
+                            </span>
+                      </a>
+                    </li>
+                    <li> 
+                        <a href="https://www.instagram.com/101_haikus" class="button is-primary">
+                            <span class="icon">
+                                <i class="fa fa-instagram" style="color: white; font-size: 30px"></i>
+                            </span>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
 </html>
