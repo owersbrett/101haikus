@@ -25,6 +25,15 @@
     width: 13vw;
     height: 10vh;
 }
+button:active{
+    color:black;
+    background-color: white;
+border-style: none;
+}
+button:focus{
+    outline: 0;
+}
+
 .big-button{
     background-color: rgba(0,0,0,0);
     font-size: 17px;
@@ -51,7 +60,7 @@ div.centered {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 25vh;
+    height: 33vh;
     width: 100vw;
 }
 
@@ -69,6 +78,7 @@ div.centered {
 
 .middle{
     align-items: center;
+    justify-content: space-between;
 }
 .l-0{
     color: white;
