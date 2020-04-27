@@ -63,6 +63,26 @@ div.centered {
     height: 33vh;
     width: 100vw;
 }
+/* mobile text */
+
+@media only screen and (max-width: 600px) {
+  #potato, #coffee, #mushroom{
+      visibility: hidden;
+  }
+  #potato-emoji, #coffee-emoji, #mushroom-emoji{
+      visibility: visible;
+  }
+  
+}
+
+@media only screen and (min-width: 600px) {
+  #potato, #coffee, #mushroom{
+      visibility: visible;
+  }
+  #potato-emoji, #coffee-emoji, #mushroom-emoji{
+      visibility: hidden;
+  }
+}
 
 
 .top{
