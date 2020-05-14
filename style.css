@@ -25,6 +25,7 @@
     width: 13vw;
     height: 10vh;
     font-style: none;
+    text-decoration: none;
 }
 button:active{
     color:black;
